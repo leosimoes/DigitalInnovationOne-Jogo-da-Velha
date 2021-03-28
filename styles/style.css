@@ -1,0 +1,43 @@
+:root {
+    --cor-quadrado: #f0ffff;
+    --cor-reta: #00ff00;
+    --cor-preta: #000000;
+}
+
+body {
+    text-align: center;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background-color: var(--cor-quadrado);
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color:var(--cor-preta);
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: var(--cor-quadrado);
+    cursor: pointer;
+}
+
+.tabuleiro {
+    background-color: var(--cor-preta);
+    display: inline-block;
+    width: 428px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
